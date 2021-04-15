@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="UTF-8">
+        <title>Dahae</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/proxy/LjFuXGQqE4xsAOQNTyy7utZG0KH-uRh-poFjVgApMSxT4eCMIEfG61u9TtAsQ8roaxEz2y_nKY_Ak1-jwLr_MJZ0WdpdutP005KuF-wyEeEYEoJX01WXVoA">
+
+        <!-- 폰트 적용 -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pangolin&display=swap" rel="stylesheet">
+        <style> body { font-family: 'Pangolin', cursive; }
+    
+       
+        #headerLogo .logo img {
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 0 auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        img {
+            border: 0;
+        }
+        img, video, canvas {
+            max-width: 100%;
+        }
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: inherit;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        user agent stylesheet
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        body, input, button {
+            line-height: 1;
+            letter-spacing: -.05em;
+            color: #4c4c4c;
+            font-size: 12px;
+            max-width: 100%;
+        }
+        html {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .img{
+            position: relative;
+            background-image: url(./img/com_major.jpg);                                                                
+            height: 100vh;
+            background-size: cover;
+          }
+        
+          .img-cover{
+             position: absolute;
+             height: 100%;
+             width: 100%;
+             background-color: rgba(0, 0, 0, 0.7);                                                                 
+             z-index:1;
+          }
+        
+          .img .content{
+             position: absolute;
+             top:50%;
+             left:50%;
+             transform: translate(-50%, -50%);                                                                   
+             font-size:5rem;
+             color: white;
+             z-index: 2;
+             text-align: center;
+          }
+          
+        .top_nav {
+            color:black;
+            font-size: 23px; 
+            padding: 30px; 
+            margin: 30px;
+        }
+
+        .top_bar{
+            background-color: #D24C75; 
+            height: 40px; 
+            padding-top: 7px;
+            text-align:center;
+            /* border-style: solid; */
+            margin-bottom: 10px;
+        }
+        /* @media(max-width:600px){ } */
+        /* @media(max-width:600px){ } */
+        .p{
+            font-weight: bold;
+            font-size: 30px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width:80%;
+            height: 50%;
+            border-style:solid;
+            border-color: rgb(18, 65, 65);
+            border-bottom-width: 10px;
+            border-top-width: 10px;
+            margin: 10%; 
+            padding:5%;
+            text-align: auto;
+        }
+        .p span{
+            font-weight:normal;
+            font-size: 20px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width:80%;
+            height: 50%;
+            /* text-align: center; */
+        }
+        .p img{
+            float: left; 
+            margin: 0;
+            width: 70px;
+            }
+        </style> 
+
+        
+
+    </head>
+
+    <body>
+        <div id="headerLogo" class="layout-wrapper">
+            <h1 class="logo">
+            <span id="gnbLogoContainer"></span>
+            <a href="../../hw/hw06/hw06.html" title="Main 화면으로 이동">
+            <img src="https://cs.dongduk.ac.kr/img_up/shop_pds/Admin_System/farm2_skin_data/logo01484890324.png" alt="다해 project logo">
+            </a>
+            </h1>
+        </div>
+
+        
+       
+        <div class = "top_bar">
+            <span class = "top_nav">
+                <a href="https://cs.dongduk.ac.kr/main" >[HOMEPAGE]</a> 
+            </span>
+            <span class = "top_nav">
+                <a href="../../hw/hw06/hw06_new.html" >[LECTURE]</a>
+            </span>
+            <span class = "top_nav">
+                <a href="../../index.html" >[MAPAGE]</a> 
+            </span>
+        </div>
+        <section>
+         <p class="p" ><img src="./img/comp.svg"><br>컴퓨터프로그래밍<span><br>디버깅 기법, 기초적인 자료구조 사용 방법, 안정적인 코딩 작성 기법 및 다양한 프로그램 문제들을 실습 위주로 해결한다.</span><p>
+         </p>
+        </section>
+         <p class="p"><img src="./img/db.svg"><br>데이터베이스개론<span><br>본 강좌에서는 관계데이터베이스를 중심으로 데이터베이스개념, 데이터모델, 데이터베이스 질의어, 데이터저장, 데이터베이스 설계, 트랜잭션에 대하여 교육한다.</span></p>
+         <p class="p"><img src="./img/inp.svg"><br>인터넷 프로그래밍<span><br>Web 프로토콜, HTML, 자바 스크립트 등의 필수적인 내용에 대해 이론을 공부하고 실습을 통해 프로그래밍 기법을 익힌다.</span></p>
+         <p class="p"><img src="./img/net.svg"><br>네트워크<span><br>통신 프로토콜, 인터넷 통신 기술, 보안(security) 관련지식 및 도구, 운영체제에 따른 네트워크 기술과 특징, 방화벽, 웹 보안등의 다양한 내용을 다룬다.</span></p>
+    </body>
+</html>
