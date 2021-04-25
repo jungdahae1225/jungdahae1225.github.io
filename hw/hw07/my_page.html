@@ -120,7 +120,7 @@
         padding-bottom:10px;
 	}
 
-    .list1,.list2,.list3,.list4{
+    .list1{
         float:inline-start;
         width: 90%;
         height: 90%;
@@ -139,6 +139,14 @@
         line-height : 200%;
         color: black;
     }
+    .column{
+        column-count: 2;
+        column-width: 200px;
+        text-align: justify;
+        column-gap: 20px;
+        margin-top: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
 
     </style> 
 
@@ -153,7 +161,6 @@
         </h1>
     </div>
 
-        
          <div class = "top_bar">
             <span class = "top_nav">
                 <a href="../../hw/hw07/hw07.html" >[HOMEPAGE]</a> 
@@ -166,56 +173,51 @@
             </span>
     </div>
     <body>	
+        <div class = "column">
         <ul class="list">
             <li class="list1">
                 <h6>회원 / 혜택</h6>
-                <p class="txt" >
-					<br>
-                    회원가입을 하시면<br>
-                    가입 즉시 게시판 이용 및 각종 할인 쿠폰과<br>
-                    적립금, 이벤트 혜택을 받으실 수 있습니다.<br>
-                    쿠폰과 적립금은 로그인 하신 후<br>
-                    마이페이지에서 확인하실 수 있습니다.
+                <p class="txt">
+                    회원가입을 하시면가입 즉시 게시판 이용 및 각종 할인 쿠폰과
+                    적립금, 이벤트 혜택을 받으실 수 있습니다.
+                    쿠폰과 적립금은 로그인 하신 후 마이페이지에서 확인하실 수 있습니다.
                 </p>
             </li>
             <br>
-            <li class="list2">
+            <li class="list1">
                 <h6>주문 / 결제</h6>
                 <p class="txt">
-                   <br>
 					상품 주문은
-					장바구니에 <br>상품 담기 &gt; 회원 혹은 비회원 주문 &gt; <br>
-					주문서 작성 &gt; 결제 방법 선택 및 결제 &gt; <br>
+					장바구니에 상품 담기 회원 혹은 비회원 주문 
+					주문서 작성 결제 방법 선택 및 결제 
 					주문 완료로 이루어집니다.
                 </p>
             </li>
             <br>
-            <li class="list3">
+            <li class="list1">
                 <h6>배송</h6>
                 <p class="txt">
-					<br>
-                    저희는 싱싱한 유기농 상품을<br>
-                    고객님의 식탁까지 빠르고 안전하게<br>
-                    배달하기 위해 항상 노력합니다.<br>
-                    배송 요청사항란에 특수정보를 기입해주시면<br>
+                    저희는 싱싱한 유기농 상품을
+                    고객님의 식탁까지 빠르고 안전하게
+                    배달하기 위해 항상 노력합니다.
+                    배송 요청사항란에 특수정보를 기입해주시면
                     보다 안전한 배송이 가능합니다.
                 </p>
             </li>
             <br>
-            <li class="list4">
+            <li class="list1">
                 <h6>취소 / 교환 / 환불</h6>
                 <p class="txt">
-					<br>
-                    주문취소는 배송 단계별로 방법이 상이합니다.<br>
-                    - [입금확인] 단계 :  [로그인 &gt; 주문내역<br>
-                    &nbsp;&nbsp;상세페이지] 에서 직접 취소 가능<br>
-                    - [입금확인] 이후 단계 : '문의하기'로 문의<br>
+                    주문취소는 배송 단계별로 방법이 상이합니다.
+                    - [입금확인] 단계 : [상세페이지] 에서 직접 취소 가능
+                    - [입금확인] 이후 단계 : '문의하기'로 문의
                 </p>
             </li>
         </ul>
 	</div>
 
-    
+</div>
+
      <!-- Footer -->
   <footer class=" w3-light-grey w3-small w3-center" id="footer" style="padding-top:90px; margin-right: 0;"   >
     <div class="w3-row-padding">
