@@ -9,7 +9,7 @@ version: 2
 name: 정다해
 title: computer science student
 email: jungdahae1225@gmail.com
-website: www.github.com/sproogen/resume-theme
+website: https://github.com/jungdahae1225
 
 # Dark Mode (true/false/never)
 darkmode: false
